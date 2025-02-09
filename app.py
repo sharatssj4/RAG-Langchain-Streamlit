@@ -1,10 +1,10 @@
 import os
 from langchain_openai import OpenAI, OpenAIEmbeddings
-from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser,JsonOutputParser
+from langchain_core.prompts import  ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
-from langchain_community.document_loaders import PyPDFLoader, PDFPlumberLoader
+from langchain_community.document_loaders import  PDFPlumberLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.vectorstores import InMemoryVectorStore
 
