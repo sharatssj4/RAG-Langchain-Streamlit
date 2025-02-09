@@ -1,10 +1,10 @@
-Streamlit RAG with LangChain
+#Streamlit RAG with LangChain
 
 Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) application using LangChain and Streamlit. It allows users to upload a pdf file and create a knowledge base that retrieves relevant documents before generating responses.
 
-Features
+#Features
 
 Streamlit UI: Interactive and user-friendly interface.
 
@@ -18,7 +18,7 @@ Document Upload: Supports uploading PDFs.
 
 Real-time Query Processing: Generates responses dynamically based on retrieved documents.
 
-Installation
+#Installation
 
 Prerequisites
 
@@ -27,27 +27,27 @@ Ensure you have Python 3.8+ installed.
 Steps
 
 Clone the repository:
-
+```bash
 git clone https://github.com/yourusername/streamlit-rag-langchain.git
 cd streamlit-rag-langchain
-
+```
 Create a virtual environment:
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 Set up environment variables:
 
 Create a .env file and add the necessary API keys (e.g., OpenAI API key, vector database credentials).
 
 Run the application:
-
+```bash
 streamlit run app.py
-
+```
 Usage
 
 Upload documents via the Streamlit interface.
@@ -73,10 +73,10 @@ Deploy the application.
 Docker Deployment
 
 Build and run a Docker container:
-
+```bash
 docker build -t streamlit-rag .
 docker run -p 8501:8501 streamlit-rag
-
+```
 Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests.
