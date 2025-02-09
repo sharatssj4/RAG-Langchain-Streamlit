@@ -36,7 +36,7 @@ Create a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
-# Install dependencies:
+Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -44,7 +44,7 @@ Set up environment variables:
 
 Create a .env file and add the necessary API keys (e.g., OpenAI API key, vector database credentials).
 
-# Run the application:
+Run the application:
 ```bash
 streamlit run app.py
 ```
