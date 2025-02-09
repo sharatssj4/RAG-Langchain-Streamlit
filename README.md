@@ -52,6 +52,8 @@ streamlit run app.py
 
 Upload documents via the Streamlit interface.
 
+Make sure to create a local pdf folder or change path of uploaded file directory to your choice. ("uploaded_path") 
+
 Enter queries in the chatbot input field.
 
 Receive responses generated based on retrieved documents.
